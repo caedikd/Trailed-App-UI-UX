@@ -8,13 +8,13 @@
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Mohave:wght@500&family=Raleway:wght@300;400&display=swap" rel="stylesheet"></head>
+<link href="https://fonts.googleapis.com/css2?family=Mohave:wght@600&family=Raleway:wght@300;400&display=swap" rel="stylesheet"></head>
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <!-- you can also specify styles straight in html!-->
 <!-- let's make this page use comic sans and dark blue for the body text. -->
-<body id="map">
+<body id="map1">
 
-  <div class="card" style="width: 19rem; border-radius: 10px;text-align: center;">
+  <div class="card" style="width: 19rem; border-radius: 10px;text-align: center; align-self: center">
     <div class="card-body">
       <!-- clickable icon linking to another tab -->
       <div id="icon">
@@ -23,23 +23,17 @@
         </svg></a>
       </div>
       
-      <h4 style="font-family: 'Mohave', sans-serif; font-size: 25px;">PLAN YOUR PERFECT TRAIL</h4>
-      
-      <p class="card-text" style="font-family: 'Raleway', sans-serif; padding:5px;text-align:left;">I am traveling with...</p>
+      <h4 style="font-family: 'Mohave', sans-serif; font-size: 25px">ALERT</h4>
+      <iframe src="https://my.atlistmaps.com/map/e5e9b946-4c88-4bc2-a671-c2d9f5264218?share=true" allow="geolocation" width="100%" height="300px" frameborder="0" scrolling="no" allowfullscreen></iframe>
+      <p class="card-text" style="font-family: 'Raleway', sans-serif; padding:5px;text-align:left;">You are approaching a fork</p>
       <div id="buttons">
-        <button type="button" class="btn btn-light btn-sm">myself</button>
-        <button type="button" class="btn btn-light btn-sm">kids</button>
-        <button type="button" class="btn btn-light btn-sm">group</button>
-        <button type="button" class="btn btn-light btn-sm">partner</button>
+        <a  class="btn btn-light btn-sm" href="/fsearch.html" role="button" style="font-size: medium; width: 100%;" >dismiss</a>
       </div>
+      <div id="buttons">
+        <a  class="btn btn-light btn-sm" href="/b" role="button" style="font-size: medium; width: 100%;" >new route</a>
+      </div>
+     
 
-      <p class="card-text" style="font-family: 'Raleway', sans-serif; padding:5px;text-align:left;">I will be...</p>
-      <div id="buttons">
-        <button type="button" class="btn btn-light btn-sm">camping</button>
-        <button type="button" class="btn btn-light btn-sm">driving</button>
-        <button type="button" class="btn btn-light btn-sm">hiking</button>
-        <button type="button" class="btn btn-light btn-sm">sightseeing</button>
-      </div>
 
       <script>
         //   get all the elements on the basis of their class name
@@ -72,41 +66,10 @@
         }
       </script>
 
-
-      <p class="card-text" style="font-family: 'Raleway', sans-serif; padding:5px;text-align:left;">Rate your experience...</p>
-      <span class="fa fa-star checked"></span>
-      <span class="fa fa-star checked"></span>
-      <span class="fa fa-star checked"></span>
-      <span class="fa fa-star"></span>
-      <span class="fa fa-star"></span>
-
-      <p class="card-text" style="font-family: 'Raleway', sans-serif; padding:5px;text-align:left;">Slide for your ideal distance...</p>
-      <div class="slidecontainer">
-        <input type="range" min="1" max="100" value="50" class="slider" id="myRange">
-        <p style="font-family: 'Raleway', sans-serif; padding:5px;text-align:left;">Distance in kM: <span id="demo"></span></p>
-      </div>
-
-      <script>
-        var slider = document.getElementById("myRange");
-        var output = document.getElementById("demo");
-        output.innerHTML = slider.value;
-        
-        slider.oninput = function() {
-          output.innerHTML = this.value;
-        }
-        </script>
-
-      <div style="padding:20px;text-align:center;">
-        <a  class="btn" href="/b" role="button" style="font-family: 'Mohave', sans-serif; font-size: medium;   background-color: #B35D01 ;
-        " >GO</a>
-      </div>
-
-
     </div>
     
   </div>
 
-  
 
 
 
@@ -152,4 +115,3 @@
 
 </body>
 </html>
-

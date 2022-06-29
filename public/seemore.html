@@ -1,0 +1,123 @@
+<!-- Referenced: https://www.w3schools.com/html/html_responsive.asp-->
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!-- let's link to our stylesheet (found in public/css/styles.css)-->
+<link rel="stylesheet" type="text/css" href="/css/styles.css"> 
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Mohave:wght@500&family=Raleway:wght@300;400&display=swap" rel="stylesheet"></head>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<!-- you can also specify styles straight in html!-->
+<!-- let's make this page use comic sans and dark blue for the body text. -->
+<body id="map">
+
+    <div class="card" style="width: 21rem; border-radius: 10px;text-align: left;">
+        <div class="card-body">
+          <!-- clickable icon linking to another tab -->
+          <div id="icon">
+            <a href="/fsearch.html" style="color: black; text-decoration: none; float: right; top: 0px;"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-x" viewBox="0 0 16 16" style="padding: 0px; margin: 0px">
+              <path d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708z"/>
+            </svg></a>
+          </div>
+          
+          <p class="card-text" style="font-family: 'Raleway', sans-serif; padding-top:5px; margin-bottom: 0px; font-size: 30px; text-align:left; font-weight: 600;">River-Creek Trail</p>
+
+          
+          <div style="float: right; margin-top: 10px; ">
+            <img src="/images/trail1.png" width="100" height="100">
+          </div>
+          <p class="text" style="font-family: 'Raleway', sans-serif; font-size: 16px; text-align:left; margin-bottom:0;">Distance: 10km</p>
+          <p class="text" style="font-family: 'Raleway', sans-serif; font-size: 16px; text-align:left; margin-bottom:0;">Elevation: 10km</p>
+          <p class="text" style="font-family: 'Raleway', sans-serif; font-size: 16px; text-align:left;">Rating: 3/5</p>
+          <hr margin-right="100px">
+          <p class="text" style="font-family: 'Raleway', sans-serif; font-size: 16px; text-align:left; margin-bottom:0; font-weight: 600;">Features:</p>
+          <div> 
+            <p class="text" style="font-family: 'Raleway', sans-serif; font-size: 16px; text-align:left; margin-bottom:0;">"long windy trails"</p>
+            <p class="text" style="font-family: 'Raleway', sans-serif; font-size: 16px; text-align:left; margin-bottom:0;">"beautiful scenic river but it's hard to get to"</p>
+            <p class="text" style="font-family: 'Raleway', sans-serif; font-size: 16px; text-align:left; margin-bottom:0;">"steep inclines"</p>
+          </div>
+          <hr style="height: 0.5 px; color: black; background-color: black;">
+          <p class="text" style="font-family: 'Raleway', sans-serif; font-size: 16px; text-align:left; margin-bottom:0; font-weight: 600;">Reviews:</p>
+          
+          <div class="reviewer" style="margin-top: 4px;">
+              <p class="text" style="font-family: 'Raleway', sans-serif; font-size: 13px; text-align:left; margin-bottom:5px; font-weight: 600;"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-person-circle" viewBox="0 0 16 16">
+                <path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0z"/>
+                <path fill-rule="evenodd" d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8zm8-7a7 7 0 0 0-5.468 11.37C3.242 11.226 4.805 10 8 10s4.757 1.225 5.468 2.37A7 7 0 0 0 8 1z"/>
+              </svg> Laura Ingalls</p>
+              <p class="text" style="font-family: 'Raleway', sans-serif; font-size: 13px; text-align:left; margin-bottom:0; font-weight: 500;"> Possibly my favorite Yosemite trail, this one is not for the faint of heart! Don't let the distance fool you into thinking this a beginner friendly trail there are many sharp rocks and steep inclines but at the end there is a beautiful creek that makes it all worth it!</p>
+              <p"><img src="/images/trail3.png" width="85" height="85" style="border-radius: 10px;">
+                <img src="/images/trail4.png" width="85" height="85" style="margin: 5px; border-radius: 10px"></p>
+
+          </div>
+
+          <div class="reviewer" style="margin-top: 4px;">
+            <p class="text" style="font-family: 'Raleway', sans-serif; font-size: 13px; text-align:left; margin-bottom:5px; font-weight: 600;"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-person-circle" viewBox="0 0 16 16">
+              <path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0z"/>
+              <path fill-rule="evenodd" d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8zm8-7a7 7 0 0 0-5.468 11.37C3.242 11.226 4.805 10 8 10s4.757 1.225 5.468 2.37A7 7 0 0 0 8 1z"/>
+            </svg> Mary Ingalls</p>
+            <p class="text" style="font-family: 'Raleway', sans-serif; font-size: 13px; text-align:left; margin-bottom:0; font-weight: 500;"> By far the most gorgeous Yosemite trail! Best for intermediate backpackers and above but don't shy away from going with a group!</p>
+            <p">
+              <img src="/images/trail5.png" width="85" height="85" style="margin: 5px; border-radius: 10px">
+              <img src="/images/trail6.png" width="85" height="85" style="border-radius: 10px;"></p>
+
+        </div>
+
+
+          <!-- <div style="padding:0px;text-align:center;">
+            <a href="/seemore.html"  style="font-family: 'Mohave', sans-serif; font-size: medium;   color: #B35D01 ;
+            " >see more</a>
+          </div> -->
+    
+        </div>
+      </div>
+    </div>
+  
+
+
+
+<!-- <div class="container-fluid">
+    <div class="d-flex justify-content-center">
+      <div class="row board-container ">
+        <div class="board">PLAN YOUR PERFECT TRAIL</div> 
+      </div>
+    </div>
+  </div>
+</div> -->
+
+<!-- <div style="background-color:#0000aa;padding:15px;text-align:center; color:#ffffff">
+  <h1>Page 2, Electric Boogaloo!</h1>
+</div>
+
+
+<div style="overflow:auto">
+  <div class="menu">
+    <a href="/">Home</a>
+    <a href="/b">Gray Rabbit</a>
+    <a href="/c">Sepia Rabbit</a>
+  </div>
+
+  <div class="main">
+
+    <h2>Check out this cool rabbit!</h2>
+    <img src="/images/bunny.jpg" alt="a rabbit" class="responsive center">
+        <p>Photo credits: 
+      <a href="https://unsplash.com/photos/u_kMWN-BWyU">Satyabratasm on Unsplash </a>
+   </p>
+  </div>
+
+  <div class="right">
+    <h2>About</h2>
+    <p>This is some example code prepared for CS160: User Interface Design & Development, Summer 2022.
+    </p> -->
+  </div>
+</div>
+
+
+
+
+</body>
+</html>
+
