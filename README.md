@@ -54,3 +54,10 @@ https://www.digitalocean.com/community/tutorials/how-to-create-a-web-server-in-n
 https://expressjs.com/en/starter/hello-world.html
 https://codeforgeek.com/render-html-file-expressjs/
 https://stackoverflow.com/questions/32257736/app-use-express-serve-multiple-html
+---
+
+Working Gifs
+
+[link to gif](http://g.recordit.co/i2raBav0nh.gif)
+[link to gif](http://g.recordit.co/7KAXRnfKNd.gif)
+
