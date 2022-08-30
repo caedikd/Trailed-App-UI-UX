@@ -1,5 +1,7 @@
 Working Gifs Caedi Seim
 
+This should be run using iPhone 12 Spec (Which can be viewing by left clicking, pressing inspect, and clicking on toggle device toolbar)
+
 ![Alt Text](http://g.recordit.co/i2raBav0nh.gif)
 [![Alt Text](http://g.recordit.co/7KAXRnfKNd.gif)
 
